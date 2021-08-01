@@ -1,0 +1,138 @@
+/* [* ] -->apply to everything  */
+*{
+    /* padding: means between space between the text  */
+     /* default size -->0px */
+     /* box-sizing: means if u changed padding the size of height nd width */
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+.hero{
+  /* height: 100%;
+  width: 100%; */
+  /* vh -- >view height:  */
+  height: 100vh;
+  width: 100%;
+  background-image: url(black.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  color: white ;
+  font-size: 35px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+span{
+  color: deeppink;
+}
+.nav{
+  /*    //all in same row */
+  display: flex;
+  /* all in one items */
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+ ul li {
+  /* inline-block --> give in in one line withh vertical */
+  display: inline-block;
+  padding: 10px 30px;
+}
+ ul li a{
+  color: white;
+  text-decoration: none;
+}
+ ul li a:hover{
+  color: yellow;
+}
+.btn{
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.content{
+  /* absolute position: means we place a text anywhere */
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+h1{
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 70px;
+}
+h3{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+h4{
+  color: white;
+  font-size:20px;
+  letter-spacing: 2px;
+}
+.form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.form input:first-child{
+        width: 100%;
+        display: inline-block;
+        padding: 14px 13px 14px 15px;
+        border:2px solid #f9004d;
+        border-radius: 30px;
+}
+.form input:last-child{
+  position: absolute;
+  display: inline-block;;
+  border: none;
+  border-radius:30px;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  top : 6px;
+  right: 6px;
+}
+.icon{
+    display: inline-flex;
+    padding-left: 100%;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+}
+.icon a {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border: 15px solid transparent;
+  border-radius: 30px;
+  margin: 8px;
+  transition: transform .4s;
+
+}
+.icon .fa{
+  font-size: 25px;
+  color: deeppink;
+  background-color: white;
+  font-weight: bold;
+}
+.icon a:hover{
+  transform: scale(1.1);
+}

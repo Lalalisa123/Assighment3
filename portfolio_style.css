@@ -1,17 +1,11 @@
-/* [* ] -->apply to everything  */
 *{
-    /* padding: means between space between the text  */
-     /* default size -->0px */
-     /* box-sizing: means if u changed padding the size of height nd width */
+    
      padding: 0px;
      margin: 0px;
      box-sizing: border-box;
 }
 
 .hero{
-  /* height: 100%;
-  width: 100%; */
-  /* vh -- >view height:  */
   height: 100vh;
   width: 100%;
   background-image: url(black.jpg);
@@ -28,9 +22,7 @@ span{
   color: deeppink;
 }
 .nav{
-  /*    //all in same row */
   display: flex;
-  /* all in one items */
   align-items: center;
   justify-content: space-between;
   padding-top: 45px;
@@ -38,7 +30,6 @@ span{
   padding-right: 8%;
 }
  ul li {
-  /* inline-block --> give in in one line withh vertical */
   display: inline-block;
   padding: 10px 30px;
 }
@@ -64,7 +55,6 @@ span{
 }
 
 .content{
-  /* absolute position: means we place a text anywhere */
   position: absolute;
   top: 50%;
   left: 8%;
